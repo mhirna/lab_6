@@ -13,3 +13,11 @@ def test_mult_let():
     assert all_prefixes('pepsi') == {'pep', 'peps', 'pepsi', 'p', 'pe', 'psi', 'ps'}
 
 
+def test_blanc():
+    assert all_prefixes('') == set()
+
+
+test_all_prefixes()
+test_blanc()
+test_mult_let()
+test_type()
